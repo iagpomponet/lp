@@ -9,7 +9,7 @@ import ShoppingCartIcon from '../../icons/ShoppingCart/index';
 const Header: React.FC = () => {
   return (
     <Styled.Header>
-          <div>
+          <Styled.LeftCol>
             <Logo />
             <Styled.Menu>
               <Styled.LinksList>
@@ -21,14 +21,12 @@ const Header: React.FC = () => {
                 </li>
               </Styled.LinksList>
             </Styled.Menu>
-          </div>
+          </Styled.LeftCol>
       <SearchBar />
-      <div>
-        <a>Login</a>
-      </div>
-      <a>
+      <Styled.LoginLink>Login</Styled.LoginLink>
+      <Styled.MinicartTrigger>
         <ShoppingCartIcon />
-      </a>
+      </Styled.MinicartTrigger>
     </Styled.Header>
   );
 }

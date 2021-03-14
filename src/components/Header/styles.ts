@@ -11,8 +11,19 @@ export const Header = styled.header`
 export const Menu = styled.div`
   display: flex;
   align-items: center;
+  margin: 0 32px;
+  transition: 0.4s;
+  cursor: pointer;
 
+  &:hover {
+    opacity: 0.8;
+  }
 `;
+
+export const LeftCol = styled.div`
+  display: flex;
+  flex-grow: 1;
+`
 
 export const LinksList = styled.div`
   display: flex;
@@ -26,4 +37,25 @@ export const LinksList = styled.div`
 
   font-size: 16px;
   font-weight: 500;
+`
+
+export const LoginLink = styled.a`
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px 32px;
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`
+
+export const MinicartTrigger = styled.button`
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `
