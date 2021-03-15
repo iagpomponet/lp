@@ -4,7 +4,7 @@ export const SolutionCard = styled.article`
   max-width: 240px;
   width: 100%;
   height: 380px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid ${props => props.theme.grey};
   border-radius: 4px;
   padding: 1rem;
 
@@ -14,14 +14,14 @@ export const SolutionCard = styled.article`
 `;
 
 export const Description = styled.div`
-  color: #EE0E7D;
+  color: ${props => props.theme.secondaryColor};
   font-size: 12px;
   margin: 1rem 0;
 `;
 
 export const Thumb = styled.span`
   display: flex;
-  background-color: #F2F2F2;
+  background-color: ${props => props.theme.grey};
   border-radius: 50px;
 
   width: 100px;
@@ -41,7 +41,7 @@ export const Link = styled.a`
   max-width: 210px;
   width: 100%;
   height: 50px;
-  background-color: #03FFA5;
+  background-color: ${props => props.theme.primaryColor};
   margin-top: auto;
 
   display: flex;

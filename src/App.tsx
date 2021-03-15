@@ -1,20 +1,20 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 
 import GlobalStyle from './globalStyles';
+import { defaultTheme } from './theme';
+
+import Index from './pages/index';
 import Header from './components/Header';
-import Banner from './components/Banner';
-import ClientsBar from './components/ClientsBar';
-import Solutions from './components/Solutions'
+
 
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
       <Header />
-      <Banner />
-      <ClientsBar />
-      <Solutions />
-    </div>
+      <Index />
+    </ThemeProvider>
   );
 }
 

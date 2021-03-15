@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Bar = styled.div`
-  background-color: #F2F2F2;
+  background-color: ${props => props.theme.grey};
   height: 80px;
 
   display: flex;

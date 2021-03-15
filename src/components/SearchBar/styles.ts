@@ -17,7 +17,7 @@ export const Bar = styled.input`
   max-width: 240px;
   width: 100%;
   display: flex;
-  border: 1px solid #F2F2F2;
+  border: 1px solid ${props => props.theme.grey};
   border-radius: 24px;
   height: 40px;
   padding: 0 1rem;

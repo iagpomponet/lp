@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Banner = styled.div`
-  background-color: #03FFA5;
+  background-color: ${props => props.theme.primaryColor};
   height: 560px;
   display: flex;
   align-items: center;
@@ -42,7 +42,7 @@ export const Button = styled.button`
   border-radius: 6px;
   height: 48px;
   color: black;
-  background-color: #03FFA5;
+  background-color: ${props => props.theme.primaryColor};
   cursor: pointer;
   transition: 0.4s;
   margin-left: 98px;

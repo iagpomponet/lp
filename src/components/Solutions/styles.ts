@@ -10,7 +10,7 @@ export const SolutionsSection = styled.section`
 export const SoluctionSectorContainer = styled(Container)`
   display: flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 24px;
 `;
 
 export const Title = styled.h5`
@@ -24,7 +24,7 @@ export const Title = styled.h5`
 
   &:before {
     content: "//";
-    color: #03FFA5;
+    color: ${props => props.theme.primaryColor};
     font-size: 32px;
     font-weight: bold;
   }

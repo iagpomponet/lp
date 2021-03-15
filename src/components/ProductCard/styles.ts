@@ -26,8 +26,8 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #EE0E7D;
-  border: 1px solid #EE0E7D;
+  color: ${props => props.theme.secondaryColor};
+  border: 1px solid ${props => props.theme.secondaryColor};
   height: 48px;
   border-radius: 30px;
 `
