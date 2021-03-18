@@ -6,6 +6,7 @@ export const Newsletter = styled.section`
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 1rem;
 
   height: 436px;
   background-color: black;
