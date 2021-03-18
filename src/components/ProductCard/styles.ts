@@ -30,4 +30,11 @@ export const Button = styled.button`
   border: 1px solid ${props => props.theme.secondaryColor};
   height: 48px;
   border-radius: 30px;
+
+  transition: 0.4s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `

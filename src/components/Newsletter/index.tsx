@@ -7,6 +7,14 @@ const Newsletter: React.FC = () => {
       <Styled.Title>
       receba novidades da nossa área de produtos digitais.
       </Styled.Title>
+
+      <Styled.InputBox>
+        <Styled.Input placeholder="Digite seu e-mail"/>
+        <Styled.Button>
+          CADASTRAR
+        </Styled.Button>
+      </Styled.InputBox>
+
   </Styled.Newsletter>;
 }
 
